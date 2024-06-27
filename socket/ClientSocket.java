@@ -10,7 +10,7 @@ public class ClientSocket {
             DataOutputStream d= new DataOutputStream(
                 soc.getOutputStream());
             
-                d.writeUTF("Hello Socket!");
+                d.writeUTF("Hello Socket..!");
 
                 d.flush();
 
